@@ -9,7 +9,7 @@ Accessed data from the GEO database using accession number GSE38006. From the GE
 
 Created acc_list.txt file containing all the values under "fastq_ftp" column and pasted directly into the HPC using vim. Then ran in vim `:%s/ftp/ftp\:\/\/ftp/g` to globally replace ftp with the directory address ftp://ftp (using escape characters). 
 
-Ran wget -i acc_list.txt to download raw reads into rawReads directory.
+Ran `wget -P parentdir/rawReads -i acc_list.txt` to download raw reads into rawReads directory.
 
 # Data Pipeline I (Processing Raw Reads)
 FastQC (+multiQC) -> fastp -> STAR (+multiQC) -> featureCounts (+multiQC)
