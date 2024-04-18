@@ -1,2 +1,2 @@
 # RNA-Seq-miniproject
-Mini RNA-Seq project using data from Chang et al. for T cell expression among HIV patients
+Mini RNA-Seq project using differential analysis (DESeq2) and pathway analysis (GSEA, g:Profiler)
