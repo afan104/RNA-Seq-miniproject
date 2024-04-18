@@ -13,7 +13,9 @@ Ran wget -i acc_list.txt to download raw reads into rawReads directory.
 
 # Data Pipeline I (Processing Raw Reads)
 FastQC (+multiQC) -> fastp -> STAR (+multiQC) -> featureCounts (+multiQC)
+
 STAR requires the human index
+
 featureCounts uses human annotation (https://www.gencodegenes.org/human/release_38.html)
 
 # Data Pipeline II (DE Analysis)
