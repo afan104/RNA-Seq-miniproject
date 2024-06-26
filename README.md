@@ -31,4 +31,4 @@ g:Profiler is a threshold based system, so I used the DE genes list generated fr
 
 Cytoscape can be used to visualize the g:Profiler results
 
-**Note: since data files can be very large, some folders are skeleton folders that can be filled up by running the script.slurm file**
+**Note: since data files can be very large, script.slurm file needs to be run in order to create and population the following directories: `fastp`, `fastQC`, `STAR`, `featureCounts`**
