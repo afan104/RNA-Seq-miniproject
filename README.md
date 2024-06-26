@@ -19,11 +19,11 @@ STAR requires the human index
 featureCounts uses human annotation (https://www.gencodegenes.org/human/release_38.html)
 
 # Data Pipeline II (DE Analysis)
-Performed quality control using correlation plot and PCA plot
-Rlog for normalization between samples
-Low expression managed using shrinkage
-MA and volcano plots to visualize the differential expression
-Heatmap to compare expression between different experimental groups (12h v 24h)
+- Performed quality control using correlation plot and PCA plot
+- Rlog for normalization between samples
+- Low expression managed using shrinkage
+- MA and volcano plots to visualize the differential expression
+- Heatmap to compare expression between different experimental groups (12h v 24h)
 
 # Data Pipeline III (Pathway Analysis - GSEA, g:Profiler)
 GSEA is a rank-based system, so the entire list of genes are provided to determine differentially regulated gene sets.
